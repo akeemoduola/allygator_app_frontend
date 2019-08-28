@@ -11,7 +11,7 @@ class VehicleList extends Component {
   }
 
   componentDidMount = () => {
-    let cable = ActionCable.createConsumer('ws://localhost:3000/cable');
+    let cable = ActionCable.createConsumer('ws://localhost:3001/cable');
     let self = this;
 
     cable.subscriptions.create('VehicleChannel', {
