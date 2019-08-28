@@ -37,7 +37,7 @@ class Vehicle extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyCFHiUzdr2CO3YvXP5UEdnNi1ewHXXxtQo'
+  apiKey: process.env.GOOGLE_API_KEY
 })(Vehicle);
 
 function markedVehicles(vehicles) {
