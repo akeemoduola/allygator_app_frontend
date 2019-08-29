@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## How to run
 
-In the project directory, you can run:
+In the project directory, create a `.env` and add `GOOGLE_API_KEY: "YOUR-GOOGLE-API-KEY"`. Then you can start/run with:
 
 ### `yarn start`
 
